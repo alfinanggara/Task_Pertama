@@ -24,3 +24,4 @@ Route::resource('admin/missing_items_status', 'App\\Http\\Controllers\\Admin\mis
 Route::resource('admin/attendance', 'App\\Http\\Controllers\\Admin\attendanceController');
 Route::resource('admin/reservation', 'App\\Http\\Controllers\\Admin\reservationController');
 Route::resource('admin/schedule', 'App\\Http\\Controllers\\Admin\scheduleController');
+Route::resource('admin/replacement', 'App\Http\Controllers\Admin\replacementController');
